@@ -1,10 +1,38 @@
-Fliq. is a collaborative, browser-based photo booth application designed to provide a unique
-and interactive way for friends to create and share memories, no matter where they are. This platform
-functions as a digital photo booth, giving users the ability to capture live photos from their device's
-camera or upload existing images. The key innovation is its real-time collaboration feature, which
-enables multiple users to simultaneously work on a single photo strip, adding custom captions,
-backgrounds, and stickers. This moves the traditional photo booth experience online, allowing for
-shared creative moments that transcend physical distance. Finalized creations can be organized and
-saved into personalized, shareable albums, creating a lasting collection of collaborative memories.
+# sv
 
-Team: Sama Ahmed, Kai Llora, Ashley Chan, Kaitlyn Lee
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+
+## Creating a project
+
+If you're seeing this, you've probably already done this step. Congrats!
+
+```sh
+# create a new project in the current directory
+npx sv create
+
+# create a new project in my-app
+npx sv create my-app
+```
+
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```sh
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```sh
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
